@@ -7,7 +7,6 @@ A [**semantic-release**](https://github.com/semantic-release/semantic-release) s
 This shareable configuration use the following plugins:
 
 - [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
-- [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
 - [`@semantic-release/npm`](https://npm.com/semantic-release/npm)
 - [`@semantic-release/github`](https://github.com/semantic-release/github)
 - [`@semantic-release/git`](https://github.com/semantic-release/git)
