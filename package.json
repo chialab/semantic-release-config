@@ -1,0 +1,34 @@
+{
+  "name": "@chialab/semantic-release-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chialab/semantic-release-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "release",
+    "semantic-release",
+    "semantic-release-config",
+    "version"
+  ],
+  "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chialab/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/chialab/semantic-release-config#readme",
+  "peerDependencies": {
+    "semantic-release": ">=16.0.0"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.3",
+    "@semantic-release/npm": "^7.1.3"
+  }
+}
