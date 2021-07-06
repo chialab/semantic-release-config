@@ -31,7 +31,6 @@ module.exports = {
         [
             '@semantic-release/git',
             {
-                assets: ['dist', 'public', 'docs', 'types', 'package.json'],
                 message: 'release: ${nextRelease.version}'
             },
         ],
