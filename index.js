@@ -28,13 +28,15 @@ module.exports = {
                 ],
             },
         ],
+        '@semantic-release/release-notes-generator',
+        '@semantic-release/changelog',
+        '@semantic-release/npm',
         [
             '@semantic-release/git',
             {
-                message: 'release: ${nextRelease.version}'
+                message: 'release: ${nextRelease.version}',
             },
         ],
-        '@semantic-release/npm',
         '@semantic-release/github',
     ],
 };
